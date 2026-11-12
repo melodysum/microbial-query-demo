@@ -22,48 +22,49 @@ def validate_filters(filters, features):
 def interpret(text):
     filters = []
     warnings = []
+    lower = text.lower()
     def add(feature, operator, value, unit=""):
         filters.append({"feature": feature, "operator": operator, "value": value, "unit": unit})
 
-    if "兼性厌氧" in text:
+    if "兼性厌氧" in text or "facultative" in lower:
         add("oxygen_requirement", "eq", "facultative_anaerobe")
-    elif "严格厌氧" in text or "厌氧" in text:
+    elif "严格厌氧" in text or "厌氧" in text or "anaerob" in lower:
         add("oxygen_requirement", "eq", "anaerobe")
-    elif "好氧" in text or "需氧" in text:
+    elif "好氧" in text or "需氧" in text or "aerobic" in lower:
         add("oxygen_requirement", "eq", "aerobe")
-    if "革兰氏阴性" in text or "革兰阴性" in text:
+    if "革兰氏阴性" in text or "革兰阴性" in text or "gram-negative" in lower or "gram negative" in lower:
         add("gram_stain", "eq", "negative")
-    if "革兰氏阳性" in text or "革兰阳性" in text:
+    if "革兰氏阳性" in text or "革兰阳性" in text or "gram-positive" in lower or "gram positive" in lower:
         add("gram_stain", "eq", "positive")
-    if "不运动" in text:
+    if "不运动" in text or "non-motile" in lower or "nonmotile" in lower:
         add("motility", "eq", "false")
-    elif "运动" in text:
+    elif "运动" in text or "motile" in lower:
         add("motility", "eq", "true")
-    if "不产孢" in text:
+    if "不产孢" in text or "non-spore" in lower or "nonspore" in lower:
         add("spore_forming", "eq", "false")
-    elif "产孢" in text:
+    elif "产孢" in text or "spore-forming" in lower or "spore forming" in lower:
         add("spore_forming", "eq", "true")
-    if "海洋" in text:
+    if "海洋" in text or "marine" in lower or "ocean" in lower:
         add("isolation_habitat", "eq", "marine_sediment")
-    if "肠道" in text:
+    if "肠道" in text or "gut" in lower or "intestin" in lower:
         add("isolation_habitat", "eq", "human_gut")
-    if "土壤" in text:
+    if "土壤" in text or "soil" in lower:
         add("isolation_habitat", "eq", "soil")
-    if "短双歧" in text:
+    if "短双歧" in text or "bifidobacterium breve" in lower:
         add("species", "eq", "Bifidobacterium breve")
-    elif "长双歧" in text:
+    elif "长双歧" in text or "bifidobacterium longum" in lower:
         add("species", "eq", "Bifidobacterium longum")
-    elif "双歧杆菌" in text:
+    elif "双歧杆菌" in text or "bifidobacterium" in lower:
         add("name", "contains", "Bifidobacterium")
-    if "大肠杆菌" in text:
+    if "大肠杆菌" in text or "escherichia coli" in lower or "e. coli" in lower:
         add("species", "eq", "Escherichia coli")
 
-    salt = re.search(r"(?:耐盐|NaCl|氯化钠)[^0-9%]{0,8}(\d+(?:\.\d+)?)\s*%", text, re.I)
+    salt = re.search(r"(?:耐盐|NaCl|氯化钠|salt|sodium chloride)[^0-9%]{0,20}(\d+(?:\.\d+)?)\s*%", text, re.I)
     if salt:
         add("nacl_growth_max", "gte", float(salt.group(1)), "%")
-    elif "耐盐" in text:
+    elif "耐盐" in text or "salt" in lower:
         warnings.append("“耐盐”存在歧义：请补充 NaCl 浓度，或选择“资料中明确描述为耐盐”。")
-    if "降解" in text:
+    if "降解" in text or "degrad" in lower:
         warnings.append("当前演示库只有“酶活性记录”占位字段，不能据此断言可降解特定底物。")
     if not filters and not warnings:
         warnings.append("未识别到可查询条件，请尝试“革兰氏阴性”“兼性厌氧”“耐盐≥3%”或具体物种名。")

@@ -1,0 +1,54 @@
+/* Restrained academic presentation: neutral surfaces, clear typography and evidence-first layout. */
+.app-shell { background: #f7f8f7; color: #223238; }
+.topbar { background: #fff; border-bottom-color: #d9e0e2; min-height: 64px; }
+.brand-mark { width: 36px; height: 36px; border-radius: 6px; background: #2f5d67; box-shadow: none; }
+.brand-title, .section-title h2, .results-header h2, .detail-header h2 {
+  font-family: Georgia, "Noto Serif SC", "Songti SC", "SimSun", serif;
+  color: #263f47;
+  letter-spacing: normal;
+}
+.brand-title { font-size: 19px; font-weight: 600; }
+.brand-subtitle { color: #697a7f; font-size: 11px; letter-spacing: .02em; }
+.topnav { background: transparent; gap: 14px; padding: 0; }
+.topnav button { border-radius: 0; padding: 8px 3px; color: #5b6e74; border-bottom: 2px solid transparent; }
+.topnav button.active { background: transparent; color: #2f5d67; border-bottom-color: #2f5d67; box-shadow: none; }
+.health-pill { color: #6a7b80; font-size: 11px; }
+.language-button { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 6px 10px; border: 1px solid #d2dcde; border-radius: 4px; background: #fff; color: #38575f; font-size: 12px; }
+.language-button:hover { background: #f2f5f4; }
+.demo-banner { background: #f1f4f3; border-bottom-color: #dde4e1; color: #52656a; }
+.query-card, .results-section, .literature-section { border-color: #dce3e0; border-radius: 4px; box-shadow: none; }
+.section-title h2, .results-header h2 { font-size: 18px; font-weight: 600; }
+.section-title p { color: #667a7f; line-height: 1.65; }
+.primary-button { border-radius: 4px; background: #2f5d67; font-weight: 550; }
+.primary-button:hover { background: #254d55; }
+.secondary-button { border-radius: 4px; background: #fff; border-color: #d5dfdc; color: #415c62; }
+.secondary-button:hover { background: #f2f5f3; }
+select, input, textarea { border-radius: 4px; border-color: #cbd8d3; }
+.query-tabs { border-bottom-color: #dce3e0; }
+.query-tabs button { color: #687b80; }
+.query-tabs button.active { color: #2f5d67; border-bottom-color: #2f5d67; }
+.upload-zone { border-radius: 4px; background: #fafbfa; border-color: #b9c9c2; }
+.upload-zone:hover { background: #f1f5f2; }
+.result-table th { background: #f3f5f4; color: #63767a; }
+.result-table tr:hover td { background: #f7f9f7; }
+.result-group-title { color: #3c665c; }
+.result-group-title.possible { color: #78652e; }
+.reason-chip { background: #edf1ef; color: #465e5b; }
+.reason-chip.missing { background: #f5efdf; color: #77602b; }
+.filter-chip { border-radius: 3px; background: #eaf0ed; color: #355c54; }
+.literature-item h3 { font-family: Georgia, "Noto Serif SC", "Songti SC", "SimSun", serif; font-weight: 600; line-height: 1.6; }
+.project-relation { border-left-color: #b7c9c1; color: #536a6e; }
+.literature-meta, .literature-item > p { color: #6d7e82; }
+.detail-header { background: #f3f5f4; }
+.eyebrow { color: #6c7c80; letter-spacing: .05em; text-transform: none; }
+.demo-source { color: #707b7e; }
+.empty-state { background: #f6f8f6; }
+@media (max-width: 720px) {
+  .topbar { flex-wrap: wrap; gap: 8px; padding: 10px 12px; }
+  .topbar > div:first-child { min-width: 0; flex: 1 1 220px; }
+  .topbar > div:last-child { margin-left: auto; }
+  .topbar .topnav { order: 3; width: 100%; justify-content: flex-start; }
+  .brand-title { font-size: 15px; }
+  .health-pill { display: none; }
+  .language-button { padding: 5px 7px; }
+}
