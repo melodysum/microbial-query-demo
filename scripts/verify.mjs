@@ -12,8 +12,9 @@ const missing = []
 page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()) })
 page.on('response', response => { if (response.status() === 404) missing.push(response.url()) })
 const report = {}
+const baseURL = process.env.VERIFY_BASE_URL || 'http://127.0.0.1:7100'
 try {
-  await page.goto('http://127.0.0.1:7100', { waitUntil: 'networkidle' })
+  await page.goto(baseURL, { waitUntil: 'networkidle' })
   await page.screenshot({ path: path.join(qa, 'desktop.png'), fullPage: true })
   report.title = await page.locator('h1').first().textContent()
   report.initialRows = await page.locator('.result-table tbody tr').count()
@@ -39,6 +40,7 @@ try {
 
   await page.getByRole('button', { name: '查询工作台', exact: true }).click()
   await page.getByRole('button', { name: '序列近邻', exact: true }).click()
+  report.largeLibraryOptionDisabled = await page.locator('option[value="four_species"]').isDisabled()
   await page.locator('input[type=file]').setInputFiles(path.join(root, 'data/genomes/GCA_000158015.1_ASM15801v1_genomic.fna.gz'))
   const sequenceResponse = page.waitForResponse(r => r.url().includes('/api/sequence/search'), { timeout: 120000 })
   await page.getByRole('button', { name: '开始近邻检索', exact: true }).click()
@@ -49,7 +51,7 @@ try {
   await page.screenshot({ path: path.join(qa, 'sequence.png'), fullPage: true })
 
   await page.setViewportSize({ width: 375, height: 812 })
-  await page.goto('http://127.0.0.1:7100', { waitUntil: 'networkidle' })
+  await page.goto(baseURL, { waitUntil: 'networkidle' })
   report.mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)
   await page.screenshot({ path: path.join(qa, 'mobile.png'), fullPage: true })
   report.consoleErrors = errors

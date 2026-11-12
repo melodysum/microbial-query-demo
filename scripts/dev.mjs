@@ -4,7 +4,8 @@ import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const python = path.join(root, '.venv', 'bin', 'python')
-const backend = spawn(python, ['-m', 'uvicorn', 'backend.main:app', '--host', '127.0.0.1', '--port', '8000'], { cwd: root, stdio: 'inherit' })
+const apiPort = process.env.API_PORT || '8000'
+const backend = spawn(python, ['-m', 'uvicorn', 'backend.main:app', '--host', '127.0.0.1', '--port', apiPort], { cwd: root, stdio: 'inherit' })
 const args = process.argv.slice(2)
 const frontend = spawn(process.execPath, [path.join(root, 'node_modules', 'vite', 'bin', 'vite.js'), ...args], { cwd: root, stdio: 'inherit' })
 let stopping = false

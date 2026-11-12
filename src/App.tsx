@@ -82,6 +82,8 @@ export default function App() {
   const [observations, setObservations] = useState<Observation[]>([])
   const [sequenceFile, setSequenceFile] = useState<File | null>(null)
   const [sequenceResult, setSequenceResult] = useState<any>(null)
+  const [selectedLibrary, setSelectedLibrary] = useState('demo')
+  const [libraryStatus, setLibraryStatus] = useState<any>(null)
   const [literature, setLiterature] = useState<Literature[]>([])
   const [literatureType, setLiteratureType] = useState('core')
   const [literatureQuery, setLiteratureQuery] = useState('')
@@ -106,8 +108,8 @@ export default function App() {
 
   useEffect(() => {
     Promise.all([
-      api<Health>('/health'), api<{ features: Feature[] }>('/features'), api<{ tree: Taxon }>('/taxonomy/tree'), api<{ strains: Strain[] }>('/strains'),
-    ]).then(([h, f, t, s]) => { setHealth(h); setFeatures(f.features); setTree(t.tree); setCatalog(s.strains) }).catch(e => setError(e.message))
+      api<Health>('/health'), api<{ features: Feature[] }>('/features'), api<{ tree: Taxon }>('/taxonomy/tree'), api<{ strains: Strain[] }>('/strains'), api('/library'),
+    ]).then(([h, f, t, s, l]) => { setHealth(h); setFeatures(f.features); setTree(t.tree); setCatalog(s.strains); setLibraryStatus(l) }).catch(e => setError(e.message))
     runSearch([])
   }, [])
   useEffect(() => { loadLiterature() }, [literatureType])
@@ -142,7 +144,7 @@ export default function App() {
   async function runSequence() {
     if (!sequenceFile) { setError('请先选择 FASTA 文件'); return }
     setLoading(true); setError(''); setSequenceResult(null)
-    const body = new FormData(); body.append('file', sequenceFile)
+    const body = new FormData(); body.append('file', sequenceFile); body.append('library', selectedLibrary)
     try { setSequenceResult(await api('/sequence/search', { method: 'POST', body })) } catch (e) { setError((e as Error).message) } finally { setLoading(false) }
   }
 
@@ -219,6 +221,13 @@ export default function App() {
 
                 {tab === 'sequence' && <>
                   <div className="section-title"><div><h2>上传 FASTA，查找库内近邻</h2><p>服务器使用 skani ANI；本地无 skani 时明确降级为 k-mer Jaccard，二者不混用。</p></div></div>
+                  <div className="mb-4">
+                    <select value={selectedLibrary} onChange={e => setSelectedLibrary(e.target.value)} aria-label="参考基因库">
+                      <option value="demo">演示参考库（12 株）</option>
+                      <option value="four_species" disabled={!libraryStatus?.all_index_ready}>四物种完整库{libraryStatus ? `（${libraryStatus.total_expected_files.toLocaleString()} 株${libraryStatus.all_index_ready ? '，索引就绪' : '，索引构建中'}）` : ''}</option>
+                    </select>
+                    {libraryStatus && !libraryStatus.all_index_ready && <p className="text-xs text-slate-500 mt-2">大文件已保存在服务器，传输完成不等于索引就绪；索引进度不影响现有 12 株演示查询。</p>}
+                  </div>
                   <label className="upload-zone">
                     <input type="file" accept=".fa,.fna,.fasta,.gz" onChange={e => setSequenceFile(e.target.files?.[0] || null)} />
                     <Upload size={28} /><strong>{sequenceFile ? sequenceFile.name : '选择 FASTA 文件'}</strong><span>完整／草图基因组，支持 gzip，最大 50 MB</span>

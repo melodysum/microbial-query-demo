@@ -35,3 +35,7 @@ qa/
 .env
 .env.*
 !.env.example
+
+# Large reference-library indexes and external data
+data/indexes/
+data/large_genomes/

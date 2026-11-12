@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "large_file_policy": "server_only",
+  "library_root": "/media/desk16/te188122/LZ/genome-library/indexes",
+  "collections": [
+    {
+      "id": "Bifidobacterium_breve",
+      "label": "短双歧杆菌",
+      "kind": "reference_genomes",
+      "path": "/media/desk16/te188122/LZ/genomes/Bifidobacterium_breve",
+      "expected_files": 335,
+      "total_bytes": 233717222,
+      "transfer_status": "complete",
+      "searchable": true
+    },
+    {
+      "id": "Bifidobacterium_longum",
+      "label": "长双歧杆菌",
+      "kind": "reference_genomes",
+      "path": "/media/desk16/te188122/LZ/genomes/Bifidobacterium_longum",
+      "expected_files": 1123,
+      "total_bytes": 807249579,
+      "transfer_status": "complete",
+      "searchable": true
+    },
+    {
+      "id": "Escherichia_coli",
+      "label": "大肠杆菌",
+      "kind": "reference_genomes",
+      "path": "/media/desk16/te188122/LZ/genomes/Escherichia_coli",
+      "expected_files": 62560,
+      "total_bytes": 94789931007,
+      "transfer_status": "complete",
+      "searchable": true
+    },
+    {
+      "id": "Staphylococcus_aureus",
+      "label": "金黄色葡萄球菌",
+      "kind": "reference_genomes",
+      "path": "/media/desk16/te188122/LZ/genomes/Staphylococcus_aureus",
+      "expected_files": 25171,
+      "total_bytes": 20727896665,
+      "transfer_status": "transferring",
+      "searchable": true
+    },
+    {
+      "id": "strain_bench_n100",
+      "label": "六工具 100 株参考库",
+      "kind": "benchmark_panel",
+      "path": "/media/desk16/te188122/LZ/strain-bench-ecoli100-8samples/data/reference_genomes",
+      "expected_files": 100,
+      "total_bytes": null,
+      "transfer_status": "complete",
+      "searchable": false
+    },
+    {
+      "id": "strain_bench_8samples",
+      "label": "六工具 8 个样本",
+      "kind": "reads",
+      "path": "/media/desk16/te188122/LZ/strain-bench-ecoli100-8samples/data/raw_reads",
+      "expected_files": 8,
+      "total_bytes": null,
+      "transfer_status": "complete",
+      "searchable": false
+    }
+  ]
+}

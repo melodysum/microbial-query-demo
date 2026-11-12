@@ -5,14 +5,15 @@ import os
 import uuid
 from pathlib import Path
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from .db import BASE, DATA, connect, init_db, rows
+from .library import large_sequence_search, library_status
 from .query import interpret, search, validate_filters
-from .sequence import sequence_search, skani_binary
+from .sequence import sequence_search, sequence_stats, skani_binary
 
 init_db()
 app = FastAPI(title="微生物信息查询平台 Demo", version="0.1.0")
@@ -152,8 +153,13 @@ def literature(record_type: str = "", q: str = ""):
     return {"records": records, "count": len(records)}
 
 
+@app.get("/api/library")
+def reference_library():
+    return library_status()
+
+
 @app.post("/api/sequence/search")
-async def sequence_endpoint(file: UploadFile = File(...)):
+async def sequence_endpoint(file: UploadFile = File(...), library: str = Form("demo")):
     filename = Path(file.filename or "query.fasta").name
     if not filename.lower().endswith((".fa", ".fna", ".fasta", ".fa.gz", ".fna.gz", ".fasta.gz")):
         raise HTTPException(400, "请上传 FASTA 文件（.fa/.fna/.fasta，可 gzip 压缩）")
@@ -172,7 +178,13 @@ async def sequence_endpoint(file: UploadFile = File(...)):
     with connect() as conn:
         strains = all_strains(conn)
     try:
+        if library == "four_species":
+            catalog = {x["accession"]: x for x in strains}
+            stats = sequence_stats(target)
+            return {**stats, **large_sequence_search(target, library_status()["library_root"], catalog)}
         return sequence_search(target, strains)
+    except RuntimeError as exc:
+        raise HTTPException(409, str(exc)) from exc
     except Exception as exc:
         raise HTTPException(500, f"序列检索失败：{exc}") from exc
 

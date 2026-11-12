@@ -46,3 +46,14 @@ ssh -L 7100:127.0.0.1:7100 lz-cloud
 - 核心文献 6 条，分享线索 64 条。
 - 服务器端基因组自比对返回 ANI 100%。
 - 浏览器控制台错误 0，HTTP 404 为 0，移动端无页面级横向溢出。
+
+## 大参考库策略
+
+四个 ANI 物种的原始基因组只保存在新服务器，不直接提交到 GitHub。`data/library_sources.json` 记录数据集、预期文件数、服务器路径和传输状态；GitHub 仅保存代码、配置和小型演示数据。
+
+大库索引位于 `/media/desk16/te188122/LZ/genome-library/indexes/<物种>`，与应用程序目录分离，避免更新代码时覆盖索引。只有对应目录下的 `READY` 标记存在时，该物种才被视为可查询。
+
+- `GET /api/library`：返回各数据集的文件数、传输状态和索引进度。
+- `POST /api/sequence/search` 携带 `library=four_species`：使用 `skani search` 对四物种预建索引做最近邻检索。
+- 默认 `library=demo`：继续使用 12 株演示库，不受大库索引构建进度影响。
+- 传输完成不等于索引就绪；未完成索引时接口会明确返回原因，不使用全对全 `triangle` 冒充大库查询。
