@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 168 20% 98%;
+    --foreground: 200 25% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 25% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 25% 13%;
+    --primary: 174 72% 27%;
+    --primary-foreground: 150 20% 98%;
+    --secondary: 168 22% 94%;
+    --secondary-foreground: 174 65% 22%;
+    --muted: 168 18% 95%;
+    --muted-foreground: 200 10% 40%;
+    --accent: 168 30% 92%;
+    --accent-foreground: 174 65% 22%;
+    --destructive: 8 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 180 12% 86%;
+    --input: 180 12% 82%;
+    --ring: 174 65% 32%;
+    --radius: 0.55rem;
+  }
+  * { @apply border-border; }
+  html { font-family: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  body { @apply bg-background text-foreground; margin: 0; min-width: 320px; }
+  button, input, select, textarea { font: inherit; }
+  button { @apply cursor-pointer; }
+  button:disabled { @apply cursor-not-allowed opacity-50; }
+  :focus-visible { outline: 3px solid rgba(15, 118, 110, .28); outline-offset: 2px; }
+  ::selection { background: rgba(15, 118, 110, .18); }
+}

@@ -1,0 +1,1642 @@
+{
+  "version": "microbial-demo-2026-11-12-v1",
+  "strains": [
+    {
+      "id": "GCA_000158015.1",
+      "accession": "GCA_000158015.1",
+      "species": "Bifidobacterium breve",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium breve"
+      ],
+      "strain_name": "DSM 20213",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-001",
+      "genome_path": "data/genomes/GCA_000158015.1_ASM15801v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000213865.1",
+      "accession": "GCA_000213865.1",
+      "species": "Bifidobacterium breve",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium breve"
+      ],
+      "strain_name": "未命名菌株 GCA_000213865.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-002",
+      "genome_path": "data/genomes/GCA_000213865.1_ASM21386v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000220135.1",
+      "accession": "GCA_000220135.1",
+      "species": "Bifidobacterium breve",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium breve"
+      ],
+      "strain_name": "未命名菌株 GCA_000220135.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-003",
+      "genome_path": "data/genomes/GCA_000220135.1_ASM22013v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000411435.1",
+      "accession": "GCA_000411435.1",
+      "species": "Bifidobacterium breve",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium breve"
+      ],
+      "strain_name": "HPH0326",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-004",
+      "genome_path": "data/genomes/GCA_000411435.1_Bifi_brev_HPH0326_V1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000003135.1",
+      "accession": "GCA_000003135.1",
+      "species": "Bifidobacterium longum",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium longum"
+      ],
+      "strain_name": "未命名菌株 GCA_000003135.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-005",
+      "genome_path": "data/genomes/GCA_000003135.1_ASM313v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000007525.1",
+      "accession": "GCA_000007525.1",
+      "species": "Bifidobacterium longum",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium longum"
+      ],
+      "strain_name": "未命名菌株 GCA_000007525.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-006",
+      "genome_path": "data/genomes/GCA_000007525.1_ASM752v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000008945.1",
+      "accession": "GCA_000008945.1",
+      "species": "Bifidobacterium longum",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium longum"
+      ],
+      "strain_name": "未命名菌株 GCA_000008945.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-007",
+      "genome_path": "data/genomes/GCA_000008945.1_ASM894v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_000020425.1",
+      "accession": "GCA_000020425.1",
+      "species": "Bifidobacterium longum",
+      "lineage": [
+        "Bacteria",
+        "Actinomycetota",
+        "Actinomycetes",
+        "Bifidobacteriales",
+        "Bifidobacteriaceae",
+        "Bifidobacterium",
+        "Bifidobacterium longum"
+      ],
+      "strain_name": "未命名菌株 GCA_000020425.1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-008",
+      "genome_path": "data/genomes/GCA_000020425.1_ASM2042v1_genomic.fna.gz",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_040094185.1",
+      "accession": "GCA_040094185.1",
+      "species": "Escherichia coli",
+      "lineage": [
+        "Bacteria",
+        "Pseudomonadota",
+        "Gammaproteobacteria",
+        "Enterobacterales",
+        "Enterobacteriaceae",
+        "Escherichia",
+        "Escherichia coli"
+      ],
+      "strain_name": "CLA-AA-H239",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-009",
+      "genome_path": "data/genomes/GCA_040094185.1.fna",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_932750705.1",
+      "accession": "GCA_932750705.1",
+      "species": "Escherichia coli",
+      "lineage": [
+        "Bacteria",
+        "Pseudomonadota",
+        "Gammaproteobacteria",
+        "Enterobacterales",
+        "Enterobacteriaceae",
+        "Escherichia",
+        "Escherichia coli"
+      ],
+      "strain_name": "CLA-AD-1",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-010",
+      "genome_path": "data/genomes/GCA_932750705.1.fna",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_932751135.1",
+      "accession": "GCA_932751135.1",
+      "species": "Escherichia coli",
+      "lineage": [
+        "Bacteria",
+        "Pseudomonadota",
+        "Gammaproteobacteria",
+        "Enterobacterales",
+        "Enterobacteriaceae",
+        "Escherichia",
+        "Escherichia coli"
+      ],
+      "strain_name": "CR B11",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-011",
+      "genome_path": "data/genomes/GCA_932751135.1.fna",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    },
+    {
+      "id": "GCA_932750795.1",
+      "accession": "GCA_932750795.1",
+      "species": "Escherichia coli",
+      "lineage": [
+        "Bacteria",
+        "Pseudomonadota",
+        "Gammaproteobacteria",
+        "Enterobacterales",
+        "Enterobacteriaceae",
+        "Escherichia",
+        "Escherichia coli"
+      ],
+      "strain_name": "Ec8850",
+      "type_strain": "unknown",
+      "collection_ids": [],
+      "internal_id": "DEMO-012",
+      "genome_path": "data/genomes/GCA_932750795.1.fna",
+      "genome_status": "real",
+      "source": "用户项目基因组库"
+    }
+  ],
+  "features": [
+    {
+      "key": "species",
+      "label": "物种",
+      "type": "text",
+      "unit": "",
+      "description": "完整物种学名"
+    },
+    {
+      "key": "name",
+      "label": "名称",
+      "type": "text",
+      "unit": "",
+      "description": "物种、菌株名或 accession"
+    },
+    {
+      "key": "gram_stain",
+      "label": "革兰氏染色",
+      "type": "enum",
+      "unit": "",
+      "options": [
+        "positive",
+        "negative"
+      ]
+    },
+    {
+      "key": "cell_shape",
+      "label": "细胞形态",
+      "type": "enum",
+      "unit": "",
+      "options": [
+        "rod",
+        "coccus"
+      ]
+    },
+    {
+      "key": "oxygen_requirement",
+      "label": "需氧性",
+      "type": "enum",
+      "unit": "",
+      "options": [
+        "aerobe",
+        "anaerobe",
+        "facultative_anaerobe"
+      ]
+    },
+    {
+      "key": "motility",
+      "label": "运动性",
+      "type": "boolean",
+      "unit": "",
+      "options": [
+        "true",
+        "false"
+      ]
+    },
+    {
+      "key": "spore_forming",
+      "label": "是否产孢",
+      "type": "boolean",
+      "unit": "",
+      "options": [
+        "true",
+        "false"
+      ]
+    },
+    {
+      "key": "temp_opt",
+      "label": "最适生长温度",
+      "type": "number",
+      "unit": "°C"
+    },
+    {
+      "key": "ph_min",
+      "label": "最低生长 pH",
+      "type": "number",
+      "unit": "pH"
+    },
+    {
+      "key": "ph_opt",
+      "label": "最适生长 pH",
+      "type": "number",
+      "unit": "pH"
+    },
+    {
+      "key": "ph_max",
+      "label": "最高生长 pH",
+      "type": "number",
+      "unit": "pH"
+    },
+    {
+      "key": "nacl_growth_max",
+      "label": "最高耐盐浓度",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "key": "salt_tolerance_description",
+      "label": "资料明确描述为耐盐",
+      "type": "boolean",
+      "unit": "",
+      "options": [
+        "true",
+        "false"
+      ]
+    },
+    {
+      "key": "isolation_habitat",
+      "label": "分离环境",
+      "type": "enum",
+      "unit": "",
+      "options": [
+        "human_gut",
+        "marine_sediment",
+        "soil",
+        "fermented_food"
+      ]
+    },
+    {
+      "key": "enzyme_activity",
+      "label": "酶活性记录",
+      "type": "boolean",
+      "unit": "",
+      "options": [
+        "true",
+        "false"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000213865.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000220135.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000411435.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000003135.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000007525.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000008945.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "gram_stain",
+      "value": "positive",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "oxygen_requirement",
+      "value": "anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "motility",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "ph_min",
+      "value": 5.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "ph_max",
+      "value": 7.5,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "nacl_growth_max",
+      "value": 2.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000020425.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "gram_stain",
+      "value": "negative",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "oxygen_requirement",
+      "value": "facultative_anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "motility",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "ph_min",
+      "value": 6.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "ph_max",
+      "value": 8.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "nacl_growth_max",
+      "value": 5.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "salt_tolerance_description",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "gram_stain",
+      "value": "negative",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "oxygen_requirement",
+      "value": "facultative_anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "motility",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "ph_min",
+      "value": 6.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "ph_max",
+      "value": 8.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "nacl_growth_max",
+      "value": 5.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750705.1",
+      "feature": "salt_tolerance_description",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "gram_stain",
+      "value": "negative",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "oxygen_requirement",
+      "value": "facultative_anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "motility",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "ph_min",
+      "value": 6.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "ph_max",
+      "value": 8.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "nacl_growth_max",
+      "value": 5.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932751135.1",
+      "feature": "salt_tolerance_description",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "gram_stain",
+      "value": "negative",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "cell_shape",
+      "value": "rod",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "oxygen_requirement",
+      "value": "facultative_anaerobe",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "motility",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "spore_forming",
+      "value": "false",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "temp_opt",
+      "value": 37,
+      "unit": "°C",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "ph_min",
+      "value": 6.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "ph_opt",
+      "value": 7.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "ph_max",
+      "value": 8.0,
+      "unit": "pH",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "nacl_growth_max",
+      "value": 5.0,
+      "unit": "%",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "isolation_habitat",
+      "value": "human_gut",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_932750795.1",
+      "feature": "salt_tolerance_description",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_000158015.1",
+      "feature": "enzyme_activity",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    },
+    {
+      "strain_id": "GCA_040094185.1",
+      "feature": "enzyme_activity",
+      "value": "true",
+      "unit": "",
+      "condition": "演示条件",
+      "evidence_id": "DEMO-PHENOTYPE-001",
+      "evidence_status": "synthetic_demo"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "DEMO-PHENOTYPE-001",
+      "title": "合成演示性状记录",
+      "authors": "平台原型",
+      "journal": "不适用于科研引用",
+      "year": 2026,
+      "url": null,
+      "excerpt": "仅用于验证筛选、缺失值分组和证据展示；不是实验事实，不得用于科研判断。",
+      "evidence_status": "synthetic_demo"
+    }
+  ]
+}
